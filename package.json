@@ -1,0 +1,23 @@
+{
+  "name": "vue-swiper",
+  "version": "1.0.0",
+  "description": "simple vue swiper ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyy126/vue-swiper.git"
+  },
+  "homepage": "https://github.com/hyy126/vue-swiper#readme",
+  "keywords": [
+    "vue",
+    "swiper",
+    "transform",
+    "translate",
+    "css"
+  ],
+  "author": "hyy",
+  "license": "ISC"
+}

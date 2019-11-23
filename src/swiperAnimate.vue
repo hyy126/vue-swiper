@@ -26,7 +26,7 @@ export default {
   props: {
     swiperList: Array,
     interval: {
-      default: 3000,
+      default: 5000,
       type: Number
     },
     direction: {

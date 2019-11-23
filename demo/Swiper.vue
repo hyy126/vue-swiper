@@ -71,16 +71,16 @@ export default {
     return {
       swiperList: [
         {
-          url: require("@/assets/story1.png")
+          url: "https://love-story.oss-cn-shanghai.aliyuncs.com/story25.jpg"
         },
         {
-          url: require("@/assets/story2.png")
+          url: "https://love-story.oss-cn-shanghai.aliyuncs.com/story26.jpg"
         },
         {
-          url: require("@/assets/story3.png")
+          url: "https://love-story.oss-cn-shanghai.aliyuncs.com/story27.jpg"
         },
         {
-          url: require("@/assets/story4.png")
+          url: "https://love-story.oss-cn-shanghai.aliyuncs.com/story28.jpg"
         }
       ]
     };

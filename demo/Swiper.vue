@@ -6,10 +6,6 @@
         <swiperAnimate :swiperList="swiperList">
         </swiperAnimate>
       </section>
-      <section class="wheel-wrapper-demo-desc">
-        <pre><code class="language-html">//传入图片数组swiperList: [{url: require(&quot;../assets/story1.png&quot;)}]
-&lt;swiperanimate :swiperList=&quot;swiperList&quot;&gt;;</code></pre>
-      </section>
     </section>
     <section class="wheel-wrapper-demo">
       <section class="wheel-wrapper-demo-body">
@@ -18,10 +14,6 @@
           direction='top'
         >
         </swiperAnimate>
-      </section>
-      <section class="wheel-wrapper-demo-desc">
-        <pre><code class="language-html">//direction: top right bottom left
-&lt;swiperanimate :swiperList=&quot;swiperList&quot; direction=&#39;top&#39;&gt;;</code></pre>
       </section>
     </section>
     <section class="wheel-wrapper-demo">
@@ -42,19 +34,6 @@
             </li>
           </template>
         </swiperAnimate>
-      </section>
-      <section class="wheel-wrapper-demo-desc">
-        <pre><code class="language-html">&lt;!-- 自定义内容展示方式 customTransformName 其中li v-show v-for 必须与demo相同 --&gt;
-&lt;!-- 仅支持vue2.6+以上版本  --&gt;
-&lt;swiperAnimate :swiperList=&quot;swiperList&quot; customTransformName=&quot;custom-swiper&quot;&gt;
-    &lt;template #default={swiperList,activeIndex}&gt;
-        &lt;li v-for=&quot;(item,index) in swiperList&quot; :key=&quot;index&quot; 
-        v-show=&quot;activeIndex ===index&quot; class=&quot;z-swiper&quot;&gt;
-            &lt;span class=&quot;swiper-span&quot;&gt;img+{{index}}&lt;/span&gt;
-            &lt;img :src=&quot;item.url&quot;&gt;
-        &lt;/li&gt;
-    &lt;/template&gt;
-&lt;/swiperAnimate&gt;</code></pre>
       </section>
     </section>
   </section>
